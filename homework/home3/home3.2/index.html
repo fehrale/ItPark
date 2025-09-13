@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Домашнее задание 3</title>
+</head>
+
+<body>
+  <form method="get">
+    <!-- Это обводка -->
+    <fieldset>
+      <legend><b>Пожалуйста, сообщите свои данные:</b></legend>
+      <label>Ваше имя:</label>
+      <br>
+      <input type="name" name="name">
+
+      <br>
+      <br>
+
+      <label>Ваш пароль:</label>
+      <br>
+      <input type="password" name="password">
+
+      <br>
+      <br>
+
+      <label>Ваш сайт:</label>
+      <br>
+      <input type="url" name="url" placeholder="url-адрес">
+
+      <br>
+      <br>
+
+      <label>Возраст:</label>
+      <br>
+      <input type="radio" name="age" value="0-5">
+      <label>0-5 лет</label>
+      <input type="radio" name="age" value="5-12">
+      <label>5-12 лет</label>
+      <input type="radio" name="age" value="12-20">
+      <label>12-20 лет</label>
+      <input type="radio" name="age" value="20">
+      <label>от 20 лет</label>
+
+      <br>
+      <br>
+
+      <label>Увлечения:</label>
+      <br>
+      <input type="checkbox" name="hobbies" value="computers & internet">
+      <label>Компьютеры и Интернет</label>
+      <input type="checkbox" name="hobbies" value="literature & arts">
+      <label>Литература и искусство</label>
+      <input type="checkbox" name="hobbies" value="musics & dances">
+      <label>Музыка и танцы</label>
+      <input type="checkbox" name="hobbies" value="cars">
+      <label>Автомобили</label>
+      <input type="checkbox" name="hobbies" value="sports & active leisure">
+      <label>Спорт и активный отдых</label>
+
+      <br>
+      <br>
+
+      <label>Ваша фотография:</label>
+      <br>
+      <input type="file" name="photo" accept=".png, .jpg, .jpeg">
+
+      <br>
+      <br>
+
+      <input type="search" name="search">
+      <label>Что Вы хотите найти?</label>
+
+      <br>
+      <br>
+
+      <label>Календарь:</label>
+      <input type="date" name="date">
+
+      <br>
+      <br>
+
+      <label>Ползунок:</label>
+      <br>
+      <input type="range" name="range" min="0" max="100" value="50">
+
+      <br>
+      <br>
+
+      <textarea name="comment" cols="50" rows="10" placeholder="Ваш комментарий..."></textarea>
+
+      <br>
+      <br>
+
+      <label>В каком городе Вы живете?</label>
+      <br>
+      <select name="country">
+        <option value="Moscow">Москва</option>
+        <option value="Arkhangelsk">Архангельск</option>
+        <option value="Smolensk">Смоленск</option>
+        <option value="Kazan">Казань</option>
+      </select>
+      <br>
+      <br>
+      <input type="submit" value="Отправить данные">
+      <input type="reset" value="Очистить поля формы">
+    </fieldset>
+  </form>
+</body>
+
+</html>

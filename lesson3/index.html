@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="keywords" content="урок 3б уроки IT, программистб веб-разработка">
+  <!-- <link ril="shortcut icon" href="img/world.png" type="image/x-icon"> -->
+  <!-- Штука для иконки на сайт -->
+  <link rel="icon" type="image/png" href="img/world.png">
+  <title>Урок 3</title>
+</head>
+
+<body>
+  <a name="top"></a>
+  <table border="1" cellspacing="0" cellpanding="10" width="300" height="100">
+    <tr>
+      <td colspan="2">Cell 1</td>
+      <!-- <td>Cell 2</td> -->
+      <!-- Когда мы объединяем ячейки по вертикали или горизантали, то это не значит, что мы съедаем следующую ячеку. Мы просто занимаем ее место, а она сама двигается вперед. Следоавтельно, нам просто нужно удалить ячейки, чьи мечта она заняла -->
+      <td>Cell 3</td>
+      <td>Cell 4</td>
+      <td>Cell 5</td>
+    </tr>
+    <tr>
+      <td rowspan="3">Cell 1</td>
+      <td>Cell 2</td>
+      <td>Cell 3</td>
+      <td>Cell 4</td>
+      <td>Cell 5</td>
+    </tr>
+    <tr>
+      <td>Cell 2</td>
+      <td>Cell 3</td>
+      <td>Cell 4</td>
+      <td>Cell 5</td>
+    </tr>
+  </table>
+
+  <!-- <video controls src=""></video>
+  <audio controls src=""></audio>
+  <iframe></iframe> -->
+
+  <a href="text.txt" download>Скачать документ</a>
+  <a href="tel: +7925074639">+79250746439</a>
+
+  <!-- Якорная ссылка - ссылкая. которая переносит нас в меню, наверх и тд -->
+  <!-- Якорение - связывание чего-то с чем-то -->
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita sunt ex praesentium quibusdam quis molestiae,
+    provident totam distinctio, vitae molestias non beatae, aliquid animi! Sed a laboriosam voluptas natus iure!</p>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi minima non odio quaerat, veritatis vitae error enim
+    asperiores voluptas atque recusandae doloribus hic nisi quas autem a quae reiciendis, eaque cumque eveniet harum
+    quasi dicta? Sit vitae pariatur rem, fugit quisquam adipisci accusantium repudiandae sequi provident nam alias
+    dolores? Minus, esse et ad possimus voluptates ratione magnam? Suscipit molestias excepturi, quasi corrupti dicta
+    assumenda eveniet accusantium quidem error, nesciunt culpa distinctio labore accusamus? Recusandae odit ipsum iure
+    dignissimos enim repudiandae itaque accusamus fugiat! Possimus minus nihil consequuntur laboriosam. Dignissimos nam
+    temporibus a explicabo id est quaerat quo, cum quisquam quibusdam!</p>
+
+  <a href="#top">Наверх</a>
+  <!-- Подробнее -->
+  <details>
+    <summary>About HTML</summary>
+    <p>HTML - это язык разметки.</p>
+  </details>
+  <details>
+    <summary>About CSS</summary>
+    <p>CSS - это язык стилей.</p>
+  </details>
+
+  <time datetime="2025-07-09">7 сентрября 2025</time>
+  <figure>
+    <img src="img/world.png" alt="Мир" width="50">
+    <figcaption>Мой мир</figcaption>
+  </figure>
+
+  <progress value="70" min="0" max="100"></progress>
+
+  <!-- Навигация - меню сайта -->
+  <nav>
+    <ul>
+      <li>страница 1</li>
+      <li>страница 1</li>
+      <li>страница 1</li>
+    </ul>
+  </nav>
+  <!-- В зависимости от масштаба сайта меняется изоображение -->
+  <picture>
+    <source srcset="" media="(min-width: 1000 px)">
+    <source srcset="" media="(min-width:700 px and max-width: 999 px)">
+  </picture>
+
+  <main>
+    <section>
+      <article>Статья</article>
+    </section>
+  </main>
+
+  <aside>Боковая панель</aside>
+
+  <footer>copy</footer>
+
+</body>
+
+</html>

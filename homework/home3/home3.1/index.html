@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Домашнее задание 3</title>
+  <meta charset="utf-8">
+</head>
+
+<body>
+  <!-- метод get - отправляет данные в открыую (видно через поисковую строку)
+   метод post - конфиденциально -->
+  <form method="get">
+    <fieldset>
+      <legend>Форма 1</legend>
+      <input type="text" name="name" value="John" disabled>
+      <br>
+      <input type="text" name="text" placeholder="Введите какой-нибудь текст" autofocus>
+      <input type="password" name="password" readonly>
+      <!-- Отправка ВСЕЙ информации на сервер -->
+      <br>
+      <input type="number" name="age" min="0" max="10" step="2" hidden>
+      <!-- <input type="email" name="email"> -->
+      <input type="search" name="search">
+      <label>Муж</label>
+      <input type="radio" name="sex" value="man">
+      <label>Жен</label>
+      <input type="radio" name="sex" value="woman">
+      <input type="checkbox" name="agree" required>
+      <label>Вам исполнилось 18?</label>
+      <input type="checkbox" name="agree" value="yes">
+      <label>Yes</label>
+      <input type="checkbox" name="agree" value="no">
+      <label>No</label>
+      <input type="date">
+      <select name="country">
+        <option value="russian">Russion</option>
+        <option value="USA">USA</option>
+        <option value="France">France</option>
+      </select>
+      <br>
+      <textarea name="comment" cols="50" rows="5" placeholder="Оставьте комментарий"></textarea>
+      <!-- Промежуточная отправка button -->
+      <button>Send</button>
+      <input type="reset">
+      <input type="submit">
+    </fieldset>
+  </form>
+
+  <!-- value -значение по умолчанию -->
+
+  <br>
+
+  <!-- <form method="post">
+    <input type="text" name="login">
+    <input type="password" name="password">
+    <input type="submit">
+  </form> -->
+</body>
+
+</html>

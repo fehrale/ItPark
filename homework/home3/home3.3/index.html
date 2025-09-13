@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="utf-8">
+  <title>Домашнее задание 3</title>
+</head>
+
+<body>
+  <h2 align="center">ПОЛЬЗОВАТЕЛЬСАЯ АНКЕТА</h2>
+
+  <table border="1" cellpading="5" cellspacing="3" width="600" align="center">
+
+    <tr>
+      <th bgcolor="#CCCCCC">Личные данные</th>
+      <th bgcolor="#CCCCCC">Увлечения</th>
+    </tr>
+
+    <tr bgcolor="#E0E0E0">
+      <td width="50%">
+        <form method="get">
+          <label>Ваше имя</label>
+          <br>
+          <input type="name" name="name">
+          <br>
+          <label>Ваш пароль</label>
+          <br>
+          <input type="password" name="password">
+          <br>
+          <label>Ваша фотография</label>
+          <br>
+          <input type="file" name="photo">
+        </form>
+      </td>
+
+      <td width="50%">
+        <form method="get">
+          <input type="checkbox" name="hobbies" value="computers & internet">
+          <label>Компьютеры и Интернет</label>
+          <br>
+          <input type="checkbox" name="hobbies" value="literature & arts">
+          <label>Литература и искусство</label>
+          <br>
+          <input type="checkbox" name="hobbies" value="musics & dances">
+          <label>Музыка и танцы</label>
+          <br>
+          <input type="checkbox" name="hobbies" value="cars">
+          <label>Автомобили</label>
+          <br>
+          <input type="checkbox" name="hobbies" value="sports & active leisure">
+          <label>Спорт и активный отдых</label>
+        </form>
+      </td>
+    </tr>
+
+    <tr>
+      <th bgcolor="#CCCCCC">Место жительства</th>
+      <th bgcolor="#CCCCCC">Комметарии</th>
+    </tr>
+
+    <tr bgcolor="#E0E0E0">
+      <td>
+        <br>
+        <select size="5" name="city">
+          <option>Москва</option>
+          <option>Санкт-Петербург</option>
+          <option>Самара</option>
+          <option>Рязань</option>
+          <option>Красноярск</option>
+          <option>Чебоксары</option>
+          <option>Казань</option>
+        </select>
+        <br>
+        <br>
+        <select name="country">
+          <option>Россия</option>
+          <option>США</option>
+        </select>
+      </td>
+
+      <td>
+        <form method="get">
+          <textarea name="comment" cols="30" rows="6" placeholder="Замечательный сайт"></textarea>
+          <br>
+          <input type="radio" name="visiting">
+          <label>Я впервые на этом сайте</label>
+          <br>
+          <input type="radio" name="visiting">
+          <label>Я тут не в первый раз</label>
+      </td>
+    </tr>
+
+    <tr bgcolor="#CCCCCC">
+      <td colspan="2" align="center">
+        <input type="submit" value="Отправить">
+        <input type="reset" value="Очистить">
+      </td>
+    </tr>
+
+  </table>
+</body>
+
+</html>
