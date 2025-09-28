@@ -1,3 +1,20 @@
+* {
+    font-style: italic;
+}
+
+
 h2 {
     color: crimson;
+}
+
+p a {
+    color: violet;
+}
+
+p i {
+    color: bisque;
+}
+
+ul a {
+    color: red;
 }
